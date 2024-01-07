@@ -8,6 +8,7 @@
     --white-color: #f4f4fd;
     --new-color: #434455;
     --butone-color: #e7e9fc;
+    --grideosebit-color: #8e8f99;
 }
 body {
     background-color: var(--mybackgroundcolor-background-color);
@@ -447,4 +448,40 @@ body {
 
  .curry {
     fill: var(--white-color);
+ }
+
+ .newsection {
+    padding-top: 120px;
+    padding-bottom: 120px;
+ }
+
+ .sectiuneacinci {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--gray-color);
+    margin-bottom: 72px;
+ }
+ .customerlist {
+    display: flex;
+    gap: 24px;
+ }
+ 
+ .firstclient {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+ }
+ .customerslink {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--grideosebit-color);
+ }
+
+ .customerslink:hover, .customerslink:focus {
+    border-color: var(--darkblue-color);
+    color: var(--darkblue-color);
  }
