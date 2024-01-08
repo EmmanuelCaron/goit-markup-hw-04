@@ -155,7 +155,7 @@ body {
 }
 .quattroi {
     background-color: var(--mybackgroundcolor-background-color);
-    width: calc((100%-72px)/4);
+    width:calc((100% - 72px)/4);
     border-radius: 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -356,7 +356,7 @@ body {
   }
   
   .forstrategy {
-    flex-basis: calc((100%-72px)/4);
+    flex-basis:calc((100% - 72px)/4);
   }
 
   .turmeric {
@@ -364,7 +364,7 @@ body {
   }
 
   .macmac {
-    width: calc((100%-48px)/3);
+    width:calc((100% - 48px)/3);
   }
  .markimark {
     padding: 32px 0;
@@ -402,7 +402,7 @@ body {
  }
 
  .kiwi {
-    width: calc((100%-48px)/3);
+    width:calc((100% - 48px)/3);
  }
 
  .kiwidiv {
@@ -467,7 +467,7 @@ body {
  }
  
  .firstclient {
-    width: calc((100% - 120px) / 6);
+    width:calc((100% - 120px)/6);
     height: 88px;
  }
  .customerslink {
@@ -487,4 +487,49 @@ body {
  }
  .firstcustomer {
     fill: currentColor;
+ }
+
+ .espanol {
+display: flex;
+align-items: baseline;
+ }
+ .explanation {
+   margin-right: 120px;
+ }
+
+ .footermedia {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--mybackgroundcolor-background-color);
+   margin-bottom: 16px;
+ }
+
+ .footerlist {
+   display: flex;
+   gap: 16px;
+ }
+
+ .flesh {
+   width: 40px;
+   height: 40px;
+ }
+
+ .psalm {
+   width: 100%;
+   height: 100%;
+   background-color: var(--bluecolor-color);
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   align-items: center;
+ }
+
+ .psalm:hover, .psalm:focus {
+   background-color: #31d0aa;
+ }
+
+ .fleshpsalm {
+   fill: var(--white-color);
  }
