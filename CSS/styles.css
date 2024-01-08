@@ -27,10 +27,6 @@ body {
     margin-right: 76px;
 
 }
-.link {
-    text-decoration: none;
-}
-
 .secondpart {
     color: var(--gray-color);
 }
@@ -52,6 +48,11 @@ body {
 
 .link {
     text-decoration: none;
+   display: block;
+}
+
+.link:hover, .link:focus {
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .indexl:hover, .indexl:focus{
@@ -156,14 +157,10 @@ body {
 .quattroi {
     background-color: var(--mybackgroundcolor-background-color);
     width:calc((100% - 72px)/4);
-    border-radius: 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
-.quattroi {
-    border-radius: 4px;
-}
 
 .quattroo {
     font-weight: 500;
@@ -211,10 +208,6 @@ body {
     display: inline-block;
     margin-bottom: 16px;
 }
-.link {
-
-    text-decoration: none;
-}
 
 .secondpart {
     color: var(--gray-color);
@@ -227,10 +220,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--gray-color);
     padding: 24px 0;
-}
-
-.link {
-    text-decoration: none;
 }
 
 .stu:hover, .stu:focus {
@@ -250,10 +239,6 @@ body {
     color: var(--lightgray-color);
  }
  
- .link {
-    text-decoration: none;
- }
-
  .mma:hover, .mma:focus {
     color:var(--darkblue-color);
  }
@@ -276,6 +261,7 @@ body {
     background-color: var(--darkblue-color);
     cursor: pointer;  
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
  }
 
  .banktitle {
@@ -522,7 +508,7 @@ align-items: baseline;
    background-color: var(--bluecolor-color);
    border-radius: 50%;
    display: flex;
-   align-items: center;
+   justify-content: center;
    align-items: center;
  }
 
