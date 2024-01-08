@@ -519,3 +519,49 @@ align-items: baseline;
  .fleshpsalm {
    fill: var(--white-color);
  }
+
+ .portfoliofooterdiv {
+   display: flex;
+   align-items: baseline;
+ }
+
+ .contactsdiv {
+   margin-right: 120px;
+ }
+
+ .portfoliosocialmedia {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--mybackgroundcolor-background-color);
+   margin-bottom: 16px;
+ }
+
+ .portfoliosocialcontainer {
+   display: flex;
+   gap: 16px;
+ }
+
+ .portfolionetwork {
+   width: 40px;
+   height: 40px;
+ }
+
+ .portfoliolinks {
+   width: 100%;
+   height: 100%;
+   background-color: var(--bluecolor-color);
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .portfoliolinks:hover, .portfoliolinks:focus {
+   background-color: #31d0aa;
+ }
+
+ .portfoliosvgclass {
+   fill: var(--white-color);
+ }
