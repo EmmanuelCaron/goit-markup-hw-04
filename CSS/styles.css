@@ -485,3 +485,6 @@ body {
     border-color: var(--darkblue-color);
     color: var(--darkblue-color);
  }
+ .firstcustomer {
+    fill: currentColor;
+ }
